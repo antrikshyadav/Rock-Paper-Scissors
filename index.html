@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock,Papper,Scissors</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h2>Rock, Paper, Scissor</h2>
+    <h3>try your luck</h3>
+    <div class="box1">
+      <div class="user" id="use">
+        <input class="name" type="text" value="antriksh" readonly />
+      </div>
+      <div class="computer" id="comp">
+        <input class="name" type="text" value="computer" readonly />
+      </div>
+    </div>
+    <div class="icon">
+      <button value="1" onclick="user(1)" id="btn1">
+        <img src="paper.jpeg" height="50px" width="50px" />
+      </button>
+      <button value="3" onclick="user(3)" id="btn2">
+        <img src="rock.png" height="50px" width="50px" />
+      </button>
+      <button value="2" onclick="user(2)" id="btn3">
+        <img src="icon1.png" height="50px" width="50px" />
+      </button>
+      <h2 id="score">Score :</h2>
+      ;
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
