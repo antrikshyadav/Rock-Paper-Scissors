@@ -6,9 +6,6 @@ This is a simple web-based Rock, Paper, Scissors game implemented using HTML, CS
 
 - [Features](#features)
 - [How to Play](#how-to-play)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
